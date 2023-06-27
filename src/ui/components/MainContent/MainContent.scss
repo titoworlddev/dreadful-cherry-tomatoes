@@ -1,0 +1,12 @@
+.main-content {
+  h1 {
+    padding-top: 1rem;
+    font-size: 24px;
+  }
+
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+}

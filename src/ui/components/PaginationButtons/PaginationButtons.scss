@@ -1,0 +1,36 @@
+.pagination-buttons {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  .chevron-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .pagination-buttons__button {
+    background: #c4242199;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    cursor: pointer;
+
+    &:hover {
+      background: #c42521;
+    }
+  }
+  .pagination-buttons__button.active {
+    background: #c42521;
+  }
+}
